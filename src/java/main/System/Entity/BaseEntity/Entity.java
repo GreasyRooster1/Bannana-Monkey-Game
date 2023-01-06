@@ -34,6 +34,8 @@ public class Entity {
         dead = false;
         decay=0;
         life=100;
+        setW(100);
+        setH(100);
         onStartup();
     }
     public void update(){

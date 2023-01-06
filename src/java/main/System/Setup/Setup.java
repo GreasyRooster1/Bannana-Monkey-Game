@@ -21,8 +21,8 @@ public class Setup {
         sceneManager = new SceneManager();
         SceneRegistry.registerScenes();
         Game.Registry.SceneRegistry.registerScenes();
-        Game.Startup.begin();
         sceneManager.postSetup();
+        Game.Startup.begin();
     }
 
     public static SceneManager getSceneManager() {
