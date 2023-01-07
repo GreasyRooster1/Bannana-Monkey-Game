@@ -1,13 +1,12 @@
 package Game.Scenes.GameScene;
 
-import Game.Entites.Moon.Earth;
+import Game.Entites.Earth.Earth;
 import Game.Entites.Player.Player;
 import System.Scene.Scene;
 import System.Setup.Setup;
 
 public class GameScene extends Scene {
     public Earth earth;
-
     public GameScene(){
         super();
     }

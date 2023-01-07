@@ -1,6 +1,6 @@
 package Game.Entites.Player;
 
-import Game.Entites.Moon.Earth;
+import Game.Entites.Earth.Earth;
 import Game.Scenes.GameScene.GameScene;
 import System.Entity.BaseEntity.Entity;
 import System.Entity.BaseEntity.Renders.EntityRender;

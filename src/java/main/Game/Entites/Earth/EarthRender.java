@@ -1,4 +1,4 @@
-package Game.Entites.Moon;
+package Game.Entites.Earth;
 
 import System.Entity.BaseEntity.Entity;
 import System.Entity.BaseEntity.Renders.EntityRender;
@@ -10,7 +10,7 @@ public class EarthRender extends EntityRender {
     public void render(Entity e){
         PApplet applet = Setup.getApplet();
         Scene currentScene = Setup.getSceneManager().getCurrentScene();
-        applet.fill(200);
+        applet.fill(0,255,0);
         preRendering(e);
         float camX = currentScene.getCamera().getCamX();
         float camY = currentScene.getCamera().getCamY();
